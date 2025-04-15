@@ -29,12 +29,12 @@ class Gain:
     """
     The gain of the ADC.
     """
-    TWOTHIRDS = 0x0000  # +/- 6.144V
-    ONE = 0x0200        # +/- 4.096V
-    TWO = 0x0400        # +/- 2.048V (default)
-    FOUR = 0x0600       # +/- 1.024V
-    EIGHT = 0x0800      # +/- 0.512V
-    SIXTEEN = 0x0A00    # +/- 0.256V
+    TWOTHIRDS = 0x0  # +/- 6.144V
+    ONE = 0x1       # +/- 4.096V
+    TWO = 0x2        # +/- 2.048V (default)
+    FOUR = 0x3       # +/- 1.024V
+    EIGHT = 0x4     # +/- 0.512V
+    SIXTEEN = 0x5    # +/- 0.256V
 
 class DataRate:
     """
